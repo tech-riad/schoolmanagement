@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START TagForStudent PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.TagForStudentHeader{
+    border-bottom: 2px solid #000;
+}
+
+.TagForStudentHeader .header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+.TagForStudentHeader .img{
+    margin-right: 10px;
+}
+
+.TagForStudentHeader img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.TagForStudentHeader h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 700;
+}
+
+.TagForStudentHeader p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START TagForStudentMain PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.TagForStudentMainContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.TagForStudentbdr{
+    width: 100%;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 2px dashed #ddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.TagForStudentbdr.Right{
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.TagForStudentMain h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.TagForStudentItem{
+    border: 2px solid #7F7F7F;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.TagForStudentItem img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.TagForStudentItem .img{
+    margin-right: 8px;
+}
+
+.TagForStudentItem .text{
+    width: 95%;
+}
+
+.TagForStudentItem li{
+    display: flex;
+    align-items: center;
+}
+
+.TagForStudentItem li h6 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 28%;
+    margin-right: 10px;
+}
+
+.TagForStudentItem li h5{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 70%;
+}
+
+.TagForStudentItem li h5 span{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

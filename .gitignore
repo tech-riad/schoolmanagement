@@ -1,0 +1,28 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+.htaccess
+# assets/images/Edteco_logo.png
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+/public/uploads
+# Laravel 5 & Lumen specific
+# public/storage
+# public/hot
+.idea/
+.idea
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+/public/academic/qrcode
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+composer.lock

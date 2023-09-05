@@ -1,0 +1,229 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+div#modal-dialog{
+    max-width: 780px !important;
+}
+#label{
+    margin-bottom: 0px !important;
+    position: absolute;
+    left: 16px;
+}
+.modal-header, .modal-body{
+    /* padding-left: 50px !important; */
+    /* padding-right: 50px !important; */
+    padding: 30px 70px 15px 70px;
+    /* padding: 40px; */
+    border: none;
+}
+.modal-header{
+    align-items: center !important;
+}
+button.close {
+    border: none !important;
+    outline: none !important;
+    font-size: 20px !important;
+}
+button.close:hover{
+    color: green !important;
+    
+}
+.modal-footer{
+    border-top: none !important;
+    margin-bottom: 10px;
+    padding-top: 0px !important;
+}
+
+
+.teacher-img{
+    border-radius: 10px;
+}
+
+button.close.absolute {
+    position: absolute;
+    cursor: pointer;
+    right: 4px;
+    top: -3px;
+    padding: 10px 10px 10px 10px;
+    z-index: 100;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px !important;
+    position: relative;
+}
+
+input#exampleInputEmail1 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #666666;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px 0 45px;
+}
+
+input#exampleInputPassword1 {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #666666;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px 0 45px;
+}
+label#label i {
+    font-size: 16px;
+    color: #666666;
+}
+
+div#all-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 50px !important;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-box {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+h3.text-by {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+spna.span {
+    color: #3dbeb2;
+}
+
+button#login-btn {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #3dbeb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    transition: all 0.4s;
+    outline: none;
+    margin-top: 25px;
+}
+.forgot {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h5#exampleModalLabel {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #262626;
+    padding-bottom: 20px !important;
+}
+
+div#form-box {
+    margin-bottom: 30px;
+}
+
+.forgot a {
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+.forgot a:hover {
+    color: #3dbeb2;
+}
+button.close.absolute span {
+    font-size: 20px;
+}
+.modal-content.relative {
+    border: 2px solid #3dbeb2;
+    border-radius: 10px;
+    
+}
+button#login-btn:hover {
+    background: #0b877b !important;
+}
+
+@media (max-width:768px) {
+    div#all-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .img-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .modal-body {
+        padding: 50px 70px 15px 70px;
+    }
+    
+    div#all-wrapper {
+        gap: 15px !important;
+    }
+    
+    img.teacher-img {
+        height: 230px !important;
+    }
+    h5#exampleModalLabel {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        color: #262626;
+    }
+   
+}
+
+@media (max-width:480px) {
+    div#all-wrapper{
+        gap: 10px !important;
+    }
+    .teacher-img{
+        height: 130px !important;
+    }
+    button#login-btn{
+        width: 100% !important;
+    }
+    img.teacher-img {
+        height: 210px !important;
+    }
+    
+    .modal-body {
+        padding: 25px 10px;
+    }
+    
+    div#form-box {
+        margin: 0;
+    }
+    h5#exampleModalLabel {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        color: #262626;
+    }
+}

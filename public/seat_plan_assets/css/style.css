@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START SeatPlan PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.SeatPlanContent{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Seatbdr {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-right: 10px;
+    width: 100% !important;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #ddd;
+    border-right: 2px dashed #ddd;
+}
+
+.Seatbdr.right{
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.SeatPlanItem{
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+
+.SeatPlan .header{
+    display: flex;
+}
+
+.SeatPlan .header .img{
+    margin-right: 10px;
+}
+
+.SeatPlan .header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.SeatPlan .header h2 {
+    font-size: 22px;
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.SeatPlan .header p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* SeatPlanTitel */
+.SeatPlanTitel {
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.Roll {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+    border: 2px solid #000;
+}
+
+.Roll h6{
+    height: 90px;
+    border-bottom: 2px solid #000;
+}
+
+.Roll h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    padding: 3px;
+    border-bottom: 2px solid #000;
+}
+
+.Roll h5:last-child{
+    border-bottom: 0;
+}
+
+.SeatPlanTitel h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.Info{
+    margin-top: 10px;
+    width: 80%;
+}
+
+.InfoItem {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.InfoItem .left{
+    width: 25%;
+}
+
+.InfoItem .middle {
+    width: 5%;
+}
+
+.InfoItem .right{
+    width: 65%;
+}
+
+.InfoItem h4 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+    font-weight: 500;
+}
+
+.InfoItem h5{
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */

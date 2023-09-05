@@ -1,0 +1,599 @@
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1700px) {
+
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .LatestNewsLeftItem .text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .LatestNewsLeftItem .text p{
+        font-size: 14px;
+    }
+    .StudentTestimonialItem {
+        padding: 20px;
+    }
+    .StudentTestimonialItem h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .StudentTestimonialItem h4 {
+        font-size: 17px;
+    }
+    .StudentTestimonialItem img {
+        width: 90px;
+        height: 90px;
+    }
+    .StudentTestimonialItem h3 span {
+        font-size: 12px;
+    }
+    .FooterItem ul a{
+        font-size: 14px;
+    }
+
+}
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1440px) {
+
+    .container{
+        max-width: 90%;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    a, button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .LatestNewsRight {
+        padding: 25px;
+    }
+    .ProgramsRight {
+        padding: 50px 25px;
+    }
+    .LatestNewsRight ul li {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .Logo img {
+        height: 65px;
+    }
+    .HeaderContent li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .Menu ul li a {
+        padding: 25px 10px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .BannerSlider img {
+        height: 500px;
+    }
+    .ProgramsContent svg {
+        font-size: 30px;
+    }
+    .ProgramsContent .img {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+    }
+    .LatestNewsLeftItem .text h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .StudentTestimonialItem {
+        padding: 15px;
+    }
+    .StudentTestimonialItem img {
+        width: 80px;
+        height: 80px;
+    }
+    .StudentTestimonialItem h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .StudentTestimonialItem h3 span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .StudentTestimonialItem h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .StudentTestimonialItem p{
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    .section_gaps {
+        padding: 60px 0;
+    }
+    .VisiteSchoolContent svg {
+        font-size: 40px;
+    }
+    .BlogContent h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .Footer::after {
+        width: 37%;
+    }
+    .WorkingHour {
+        padding: 30px 0;
+    }
+    .HeaderContent li a.bg {
+        padding: 5px 10px;
+
+    }
+    .HeaderContent li a {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .HeaderContent ul li {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .row {
+        --bs-gutter-x: 20px;
+    }
+    .FooterItem ul a {
+        font-size: 13px;
+    }
+    .TinyFooter {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .Marquee .left h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .middle ul li{
+        line-height: 25px;
+    }
+    .LatestNewsLeftItem .text a.bg {
+        margin-top: 20px;
+    }
+    .LatestNewsRight {
+        height: 97%;
+    }
+    .StudentTestimonial ul li::after {
+        left: 2px;
+    }
+    /* .StudentTestimonial {
+        height: 575px;
+    } */
+
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1199px) {
+
+    .row {
+        --bs-gutter-x: 20px;
+    }
+
+    .DesktopMenu{
+        display: none;
+    }
+    .MobileMenu{
+        display: block;
+        padding: 15px 0;
+    }
+    .MobileMenu .Bar img {
+        height: 40px;
+    }
+
+    ul.dropdown-menu.show {
+        border: none;
+        padding-left: 15px;
+        position: relative !important;
+        transform: unset !important;
+        margin-top: 10px;
+        padding-top: 16px;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .MobileMenuItem li{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--border_color);
+    }
+    .MobileMenuItem li:last-child{
+        border-bottom: 0;
+    }
+    .MobileMenuItem a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .MobileMenuItem a.active{
+        color: var(--bg_color);
+    }
+    .MobileMenuItem a svg{
+        margin-left: 5px;
+    }
+
+    .SocialIcon a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .ProgramsItem {
+        display: block;
+    }
+    .ProgramsContent .text {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .ProgramsContent .img {
+        width: 50px;
+        height: 50px;
+        margin-right: 0;
+    }
+    .ProgramsContent svg {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ProgramsRight {
+        padding: 60px 20px;
+    }
+    .LatestNewsLeft h4 {
+        margin-top: 35px;
+    }
+    .LatestNewsRight {
+        padding: 20px;
+    }
+    .LatestNewsLeftItem .text h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .LatestNewsRight ul li a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .LatestNewsRight ul li a span {
+        padding: 2px 4px;
+        font-size: 12px;
+        margin-left: 3px;
+    }
+    .LatestNewsRight ul li {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .StudentTestimonialItem img {
+        width: 70px;
+        height: 70px;
+    }
+    .StudentTestimonialItem h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .StudentTestimonialItem h4 {
+        margin-top: 5px;
+    }
+    .WorkingHour ul li:last-child {
+        font-size: 14px;
+    }
+    .WorkingHour {
+        padding: 30px 0;
+        padding-bottom: 0;
+    }
+    .VisiteSchoolContent svg {
+        font-size: 25px;
+    }
+    .Founded .VisiteSchoolContent .img {
+        width: 60px;
+        height: 60px;
+    }
+    .BlogContent h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .Footer::after {
+        width: 36%;
+    }
+    .GetInTouch {
+        margin-left: 20px;
+    }
+    .Menu ul li {
+        display: block;
+        padding: 10px;
+    }
+    .Menu ul li a {
+        padding: 0;
+    }
+    .Logo.d_flex {
+        justify-content: center;
+    }
+    .HeaderContent {
+        text-align: center;
+        margin: 11px 0;
+        margin-top: 15px;
+    }
+    .SocialIcon a {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    .LatestNewsLeftItem img {
+        height: 150px;
+    }
+    .Blog img {
+        height: 170px;
+    }
+    .EventItem {
+        height: 350px;
+    }
+    .Marquee .left {
+        padding: 8px 30px;
+        width: 25%;
+    }
+    .Marquee .left h3 {
+        font-size: 18px;
+    }
+    .StudentListItem .ProfilePart img {
+        width: 100px;
+        height: 100px;
+    }
+    .StudentListItem .text{
+        margin-top: 10px;
+    }
+    .ProfilePart {
+        display: block;
+    }
+    .StudentListItem .ProfilePart h4 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .StudentListItem .ProfilePart span {
+        width: 125px;
+    }
+    .TeacherListItem .SocialIcon {
+        position: relative;
+        bottom: 0;
+        margin-top: 15px;
+    }
+    .SocialIcon a {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 768px) {
+
+    .SocialIcon a {
+        font-size: 18px;
+        width: 38px;
+        height: 40px;
+    }
+    .BannerSlider img {
+        height: 400px;
+    }
+    .Programs {
+        padding: 50px 0;
+    }
+    .ProgramsRight{
+        margin-top: 30px;
+    }
+    .LatestNewsRight {
+        margin-top: 30px;
+    }
+    .VisiteSchoolContent {
+        display: block;
+    }
+    .VisiteSchoolContent .text{
+        margin-top: 20px;
+    }
+    .VisiteSchoolContent svg {
+        font-size: 40px;
+    }
+    .StudentTestimonialItem {
+        display: flex;
+    }
+    .StudentTestimonialItem img {
+        width: 100px;
+        height: 100px;
+    }
+    .StudentTestimonial{
+        margin-top: 30px;
+    }
+    .Founded .VisiteSchoolContent .text {
+        width: 100%;
+    }
+    .Founded .VisiteSchoolContent.d_flex {
+        display: block;
+    }
+    .BlogContent{
+        margin-bottom: 30px;
+    }
+    .GalleryImg.fst{
+        margin-bottom: 30px;
+    }
+    .Footer::after {
+        width: 100%;
+        height: 38%;
+        top: unset;
+        bottom: 0;
+    }
+    .GetInTouch {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    footer.Footer.section_gaps {
+        padding-bottom: 30px;
+    }
+    .StudentTestimonialItem{
+        margin-right: 0;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .LatestNewsRight ul li a {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .Marquee .left {
+        padding: 8px 10px;
+        width: 40%;
+    }
+    .Marquee .left h3 {
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 500px) {
+
+    .Menubar{
+        position: relative;
+        padding: 15px 0;
+    }
+    button.Bar {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+    }
+    .MobileMenu {
+        display: block;
+        padding: 0;
+    }
+    .ProgramsItem{
+        display: flex;
+    }
+    .ProgramsContent .text {
+        width: 70%;
+    }
+    .ProgramsContent .img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .VisiteSchoolContent {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .VisiteSchoolContent .text{
+        margin-top: 0;
+    }
+    section.WhyChooseUs.section_gaps {
+        padding: 50px 0;
+    }
+    .Founded .VisiteSchoolContent.d_flex{
+        display: flex;
+    }
+    .Founded .VisiteSchoolContent .text {
+        width: 75%;
+    }
+    .section_gaps{
+        padding: 60px 0;
+    }
+    .FooterItem {
+        margin-bottom: 30px;
+    }
+    footer.Footer.section_gaps {
+        padding-bottom: 10px;
+    }
+    .Footer::after {
+        height: 21%;
+    }
+    .Logo h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .Logo h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .HeaderContent ul li {
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+    .HeaderContent li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .Banner .prev, .Banner .next{
+        display: none;
+    }
+    .BannerSlider img {
+        height: 300px;
+    }
+    div#offcanvasExample {
+        width: 90%;
+    }
+    .ProgramsContent .text {
+        margin-top: 0;
+    }
+    .ProgramsItem{
+        margin-bottom: 30px;
+    }
+    .col-lg-4:last-child .ProgramsItem{
+        margin-bottom: 0;
+    }
+    .LatestNewsLeftItem {
+        margin-top: 10px;
+    }
+    .col-lg-4:last-child .VisiteSchoolContent{
+        margin-bottom: 0;
+    }
+    .TinyFooter.d_flex.d_justify {
+        display: block;
+    }
+    .TinyFooter.d_flex.d_justify p:nth-child(2){
+       margin: 5px 0;
+    }
+    .LatestNewsLeftItem img {
+        height: auto;
+    }
+    .MobileHazira{
+        display: block;
+    }
+    #backToTop {
+        width: 35px;
+        height: 35px;
+    }
+    .GalleryImg {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+}
