@@ -14,7 +14,7 @@
                     </a>
                 </li>
                 <li class="nav-item {{Request::is('staff/*')? 'custom_nav':''}}">
-                    <a class="nav-link" href="{{ route('staff.index') }}" id="nav-hov">
+                    <a class="nav-link" href="{{ route('teacher.staff.index') }}" id="nav-hov">
                         Stuffs
                     </a>
                 </li>
@@ -24,12 +24,12 @@
                     </a>
                 </li>
                 <li class="nav-item {{Request::is('assign_teacher/index*')? 'custom_nav':''}}">
-                    <a class="nav-link" href="{{ route('assign_teacher.index') }}" id="nav-hov">
+                    <a class="nav-link" href="{{ route('teacher.assign_teacher.index') }}" id="nav-hov">
                         Assign Teachers
                     </a>
                 </li>
                 <li class="nav-item {{Request::is('assign_teacher/subject*')? 'custom_nav':''}}">
-                    <a class="nav-link" href="{{ route('assign_teacher.subject') }}" id="nav-hov">
+                    <a class="nav-link" href="{{ route('teacher.assign_teacher.subject') }}" id="nav-hov">
                         Assign Subjects
                     </a>
                 </li>

@@ -17,7 +17,7 @@ class StaffController extends Controller
     {
         $staffs = Teacher::where('type', 'staff')->get();
         return view($this->backendTemplate['template']['path_name'].'.teachers.staff.index', compact('staffs'));
-        
+
     }
 
 
